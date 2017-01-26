@@ -1,0 +1,7 @@
+﻿  Source.cpp
+d:\my activities\c++\test\opencv15\opencvtest\opencvtest\source.cpp(6): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+d:\my activities\c++\test\opencv15\opencvtest\opencvtest\source.cpp(7): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+d:\my activities\c++\test\opencv15\opencvtest\opencvtest\source.cpp(33): warning C4101: 'cutx': unreferenced local variable
+d:\my activities\c++\test\opencv15\opencvtest\opencvtest\source.cpp(33): warning C4101: 'cuty': unreferenced local variable
+  OPENCVTest.vcxproj -> D:\My Activities\C++\test\OPENCV15\OPENCVTest\x64\Debug\OPENCVTest.exe
+  OPENCVTest.vcxproj -> D:\My Activities\C++\test\OPENCV15\OPENCVTest\x64\Debug\OPENCVTest.pdb (Full PDB)
