@@ -21,7 +21,7 @@ using namespace std;
 //
 ///** Function Headers */
 void CutImage(Mat RohImg);
-
+//
 /**
 * @function main
 */
@@ -82,13 +82,13 @@ void CutImage(Mat RohImg)
 	vector<float> array3(img3.cols * img3.rows);
 	vector<float> array4(img4.cols * img4.rows);
 
-	if (RohImg.isContinuous())
-	{
-		array1.assign(img1.datastart, img1.dataend);
-		array2.assign(img2.datastart, img2.dataend);
-		array3.assign(img3.datastart, img3.dataend);
-		array4.assign(img4.datastart, img4.dataend);
-	}
+	//if (RohImg.isContinuous())
+	//{
+	//	array1.assign(img1.datastart, img1.dataend);
+	//	array2.assign(img2.datastart, img2.dataend);
+	//	array3.assign(img3.datastart, img3.dataend);
+	//	array4.assign(img4.datastart, img4.dataend);
+	//}
 		
 	dst = RohImg(ROI2);
 	
