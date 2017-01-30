@@ -32,7 +32,7 @@ int main(int, char** argv)
 	Mat dst;
 	int cuty, cutx;
 
-	src = imread("D:/My Activities/C++/test/OPENCV15/OPENCVTest/data/test2.bmp");
+	src = imread("D:/My Activities/C++/test/OPENCV15/OPENCVTest/data/test1.bmp");
 	if (src.empty())
 		{ return -1; }
 
@@ -92,5 +92,5 @@ void CutImage(Mat RohImg)
 		
 	dst = RohImg(ROI2);
 	
-	//imshow("demo", array1);
+	imshow("demo", dst);
 };
